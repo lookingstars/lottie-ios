@@ -71,6 +71,12 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B8E8748514D4FA9C683B1711 /* Pods_lottie_ios_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EBDFEA18138A27DD5A89337 /* Pods_lottie_ios_Tests.framework */; };
+		E33454E31EF8D1D100D79B2B /* four.json in Resources */ = {isa = PBXBuildFile; fileRef = E33454DE1EF8D1D100D79B2B /* four.json */; };
+		E33454E41EF8D1D100D79B2B /* img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = E33454E01EF8D1D100D79B2B /* img_0.png */; };
+		E33454E51EF8D1D100D79B2B /* img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E33454E11EF8D1D100D79B2B /* img_1.png */; };
+		E33454E61EF8D1D100D79B2B /* img_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E33454E21EF8D1D100D79B2B /* img_2.png */; };
+		E33454E91EF8D26E00D79B2B /* version_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = E33454E71EF8D26E00D79B2B /* version_animation.json */; };
+		E33454EA1EF8D26E00D79B2B /* version_animation2.json in Resources */ = {isa = PBXBuildFile; fileRef = E33454E81EF8D26E00D79B2B /* version_animation2.json */; };
 		EEC1E1E127D92497BB7EB181 /* Pods_Lottie_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B15EF764A3BC631B7F802E1 /* Pods_Lottie_Example.framework */; };
 		FA1F5A8F1E42B25500FF36BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1F5A8E1E42B25500FF36BF /* AppDelegate.m */; };
 		FA1F5A921E42B25500FF36BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1F5A911E42B25500FF36BF /* main.m */; };
@@ -179,6 +185,12 @@
 		99F3982078CC5B93DA1AFF47 /* Pods-Lottie-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example/Pods-Lottie-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC7587B24F90B40ADD0CEA8C /* Pods_Lottie_Example_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie_Example_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C83F4B06A893EA3322E53A /* Pods-Lottie-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example/Pods-Lottie-Example.release.xcconfig"; sourceTree = "<group>"; };
+		E33454DE1EF8D1D100D79B2B /* four.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = four.json; sourceTree = "<group>"; };
+		E33454E01EF8D1D100D79B2B /* img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_0.png; sourceTree = "<group>"; };
+		E33454E11EF8D1D100D79B2B /* img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_1.png; sourceTree = "<group>"; };
+		E33454E21EF8D1D100D79B2B /* img_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_2.png; sourceTree = "<group>"; };
+		E33454E71EF8D26E00D79B2B /* version_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = version_animation.json; sourceTree = "<group>"; };
+		E33454E81EF8D26E00D79B2B /* version_animation2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = version_animation2.json; sourceTree = "<group>"; };
 		FA1F5A8B1E42B25500FF36BF /* Lottie-Example-MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lottie-Example-MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1F5A8D1E42B25500FF36BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA1F5A8E1E42B25500FF36BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -382,6 +394,10 @@
 		62B254801E3A90040035A842 /* TypeFace */ = {
 			isa = PBXGroup;
 			children = (
+				E33454E71EF8D26E00D79B2B /* version_animation.json */,
+				E33454E81EF8D26E00D79B2B /* version_animation2.json */,
+				E33454DE1EF8D1D100D79B2B /* four.json */,
+				E33454DF1EF8D1D100D79B2B /* images */,
 				62B254811E3A90040035A842 /* A.json */,
 				62B254821E3A90040035A842 /* Apostrophe.json */,
 				62B254831E3A90040035A842 /* B.json */,
@@ -416,6 +432,16 @@
 			name = TypeFace;
 			path = Assets/TypeFace;
 			sourceTree = SOURCE_ROOT;
+		};
+		E33454DF1EF8D1D100D79B2B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E33454E01EF8D1D100D79B2B /* img_0.png */,
+				E33454E11EF8D1D100D79B2B /* img_1.png */,
+				E33454E21EF8D1D100D79B2B /* img_2.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
 		};
 		FA1F5A8C1E42B25500FF36BF /* Example for lottie-macos */ = {
 			isa = PBXGroup;
@@ -565,6 +591,7 @@
 				62B254AB1E3A90040035A842 /* A.json in Resources */,
 				62B254A31E3A90040035A842 /* HamburgerArrow.json in Resources */,
 				62B254C91E3A90040035A842 /* vcTransition1.json in Resources */,
+				E33454E41EF8D1D100D79B2B /* img_0.png in Resources */,
 				62B254CA1E3A90040035A842 /* vcTransition2.json in Resources */,
 				62B254BF1E3A90040035A842 /* Q.json in Resources */,
 				62B254A61E3A90040035A842 /* LottieLogo1.json in Resources */,
@@ -576,10 +603,12 @@
 				62B254BE1E3A90040035A842 /* P.json in Resources */,
 				62B254C81E3A90040035A842 /* Z.json in Resources */,
 				62B254AC1E3A90040035A842 /* Apostrophe.json in Resources */,
+				E33454E61EF8D1D100D79B2B /* img_2.png in Resources */,
 				62B254A41E3A90040035A842 /* IconTransitions.json in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				62B254B21E3A90040035A842 /* D.json in Resources */,
 				62B254A51E3A90040035A842 /* LottieLogo1_masked.json in Resources */,
+				E33454E51EF8D1D100D79B2B /* img_1.png in Resources */,
 				62B254C41E3A90040035A842 /* V.json in Resources */,
 				62B254AA1E3A90040035A842 /* TwitterHeart.json in Resources */,
 				62B254B91E3A90040035A842 /* K.json in Resources */,
@@ -592,7 +621,10 @@
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				62B254C21E3A90040035A842 /* T.json in Resources */,
 				62B254BD1E3A90040035A842 /* O.json in Resources */,
+				E33454E91EF8D26E00D79B2B /* version_animation.json in Resources */,
 				62B254A91E3A90040035A842 /* PinJump.json in Resources */,
+				E33454E31EF8D1D100D79B2B /* four.json in Resources */,
+				E33454EA1EF8D26E00D79B2B /* version_animation2.json in Resources */,
 				62B254B81E3A90040035A842 /* J.json in Resources */,
 				62B254C31E3A90040035A842 /* U.json in Resources */,
 			);
